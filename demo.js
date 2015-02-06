@@ -12,7 +12,7 @@ for(var i=0; i<numMonsters; i++) {
 	var type = Math.random() < 0.5 ? 'herbivore' : 'carnivore';
 	monsters.push(new Monster(type));
 }
-// test
+// test2
 // create scientists
 for(var i=0; i<numScientists; i++) {
 	scientists.push(new Scientist());
